@@ -7,10 +7,12 @@
     padding-right: 8px;
     border: 2px #232323 solid;
     border-radius: 5px;
+    background-color: rgb(0,0,0,0.5);
+
 }
 #info{
     text-align:center;
-    color: #232323;
+    /* color: #232323; */
     font-size: 1.2em;
     text-decoration: underline;
 }
@@ -39,4 +41,26 @@ button{
 #auto{
     margin: 0px auto;
     font-size: 1.5em;
+}
+body{
+    font-family:"JOSEPH_IN";
+    background-image: url("https://images.unsplash.com/photo-1511068797325-6083f0f872b1?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070");  
+    background-size: cover;  
+    color: white;
+}
+.pratham{
+    background-color: rgb(0,0,0,0.5);
+    margin: 100px 0px;
+    width:fit-content; 
+    height:fit-content;
+    border-radius: 20px;
+    /* height: 600px; */
+    background-color: rgb(0,0,0,0.5);
+    color:aliceblue;
+    padding:30px
+
+}
+body{
+    font-family:"JOSEPH_IN";
+
 }

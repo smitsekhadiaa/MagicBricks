@@ -1,3 +1,13 @@
+
+.smit{
+    margin: 100px 0px;
+    width:fit-content; 
+    height:fit-content;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0.5);
+    color:aliceblue;
+    padding:30px
+}
 #main{
     max-width: 500px;
     margin: 75px auto;
@@ -7,6 +17,15 @@
     padding-right: 8px;
     border: 2px #232323 solid;
     border-radius: 5px;
+    
+
+    /* margin: 100px 0px; */
+    /* width:fit-content;  */
+    /* height:fit-content; */
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0.5);
+    color:aliceblue;
+    padding:30px
 }
 #heading{
     font-size: 1.5em;
@@ -15,7 +34,16 @@
 }
 #info{
     text-align:center;
-    color: #232323;
+    color:aliceblue;
     font-size: 1.2em;
     text-decoration: underline;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673");
+    background-size: cover;
+    color:black;
+}
+body{
+    font-family:"JOSEPH_IN";
+
 }

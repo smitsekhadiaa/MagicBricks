@@ -1,12 +1,19 @@
 <%- include ("./partials/header.ejs")%>
     <link rel="stylesheet" href="/stylesheets/locguide.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
     <div class="container-fluid">
         <div class="row text-center">
             <div class="col-lg-6">
                 <div class="container-fluid">
                     <div class="row-lg-2"><br><br></div>
-                    <div class="row-lg-4">
+                    <div class="pratham">
+                    <div class="row-lg-4 ">
                         <div class="row">
                             <div class="col-lg-4"><img class="img-fluid" src="./images/location-pin.jpg" alt=""></div>
                             <div class="col-lg-8">
@@ -14,9 +21,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row-lg-4 text-center">
+                    <div class="row-lg-4 text-center ">
                         This feature allows you to navigate the various amenities in your locality. It takes a pincode or area as filtering option. You can also auto-detect your location.
                     </div>
+                </div>
                     <div class="row-lg-2"></div>
                 </div>
             </div>
@@ -24,7 +32,7 @@
                 <div id="main">
                     <form action="locguide/maps/" method="POST">
                         <p id="heading"><strong> KNOW YOUR LOCATION</strong></p>
-                        <p id="info">Select EITHER pincode OR area. </p>
+                        <p id="info">Select either Pincode or Area. </p>
                         <div class="container-fluid">
                             <div class="row mb-3">
                                 <label for="pin" class="col-sm-2 col-form-label"><span
