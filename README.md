@@ -46,7 +46,7 @@ git clone https://github.com/smitsekhadiaa/MagicBricks.git
 ```
 2. To install npm dependencies
 ```
-nom install
+npm install
 ```
 3. To start backend
 ```
